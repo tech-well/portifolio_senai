@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    background-color: #282C33;
+}
+
+
+.header{
+    width: 66.8rem;
+    height: 64px;
+    background-color:#282C33;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+   
+    
+}
+
+header a{
+    
+    font-family: "Fira Code", monospace;
+    color: gray;
+}
+
+.header__nome__dev a{
+    display: flex;
+    font-family: "Fira Code", monospace;
+    color: white;
+    gap: 3px;
+    
+}
+
+.home a{
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    gap: 32px;
+   
+}
+
+/* //////////////////////////////////////////////// fim do header /////////////////////////////////////////////////////////////////// */
+
+
+/* inicio main container */
+
+.container{
+    width: 66.8rem;
+    height: 423px;
+    margin: 43px auto;
+    border: solid 1px plum;
+    display: flex;
+    align-items: center;
+    
+}
+
+.container__descriptions{
+    width: 33.5rem;
+    height: 227px;
+    font-size: 2rem;
+    font-family: "Fira Code", monospace;
+    color: white;
+}
+.container__descriptions__destaque{
+    color: #C778DD;
+}
+
+.container__descriptions__destaque__hardskils{
+ width: 28.9rem;
+ height: 50px;
+ font-size: 1rem;
+ margin-top: 32px;
+ color: #ABB2BF;
+}
+
+.container input{
+    background-color: #282C33;
+    color: white;
+    padding: 8px 16px;
+    border: solid 1px  #C778DD;
+    font-family: "Fira Code", monospace;
+}
+
+.container__imagem__dev{
+    width: 29.3rem;
+    height: 386px;
+    border: solid 1px plum;
+    background-image: url();
+}
