@@ -1,50 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     text-decoration: none;
 }
-body{
+
+body {
     background-color: #282C33;
 }
 
 
-.header{
+.header {
     width: 66.8rem;
     height: 64px;
-    background-color:#282C33;
+    background-color: #282C33;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: end;
-   
-    
+
+
 }
 
-header a{
-    
+header a {
+
     font-family: "Fira Code", monospace;
     color: gray;
 }
 
-.header__nome__dev a{
+.header__nome__dev a {
     display: flex;
     font-family: "Fira Code", monospace;
     color: white;
     gap: 3px;
-    
+
 }
 
-.home a{
+.home a {
     color: white;
 }
 
-.navbar{
+.navbar {
     display: flex;
     gap: 32px;
-   
+
 }
 
 /* //////////////////////////////////////////////// fim do header /////////////////////////////////////////////////////////////////// */
@@ -52,44 +53,45 @@ header a{
 
 /* inicio main container */
 
-.container{
+.container {
     width: 66.8rem;
     height: 423px;
     margin: 43px auto;
-  
+
     display: flex;
     align-items: center;
-    
+
 }
 
-.container__descriptions{
+.container__descriptions {
     width: 33.5rem;
     height: 227px;
     font-size: 2rem;
     font-family: "Fira Code", monospace;
     color: white;
 }
-.container__descriptions__destaque{
+
+.container__descriptions__destaque {
     color: #C778DD;
 }
 
-.container__descriptions__destaque__hardskils{
- width: 28.9rem;
- height: 50px;
- font-size: 1rem;
- margin-top: 32px;
- color: #ABB2BF;
+.container__descriptions__destaque__hardskils {
+    width: 28.9rem;
+    height: 50px;
+    font-size: 1rem;
+    margin-top: 32px;
+    color: #ABB2BF;
 }
 
-.container input{
+.container input {
     background-color: #282C33;
     color: white;
     padding: 8px 16px;
-    border: solid 1px  #C778DD;
+    border: solid 1px #C778DD;
     font-family: "Fira Code", monospace;
 }
 
-.container__imagem__dev{
+.container__imagem__dev {
     width: 29.3rem;
     height: 415px;
     background-image: url('/project/imagem/dev.png');
@@ -99,36 +101,232 @@ header a{
     display: grid;
     align-content: end;
     position: relative;
-    
-    
-    
+
+
+
 }
 
-.container__imagem__dev__dots{
- position: absolute;
- left: 80%;
- top: 60%;
+.container__imagem__dev__dots {
+    position: absolute;
+    left: 80%;
+    top: 60%;
 }
 
-.container__imagem__dev__currently{
+.container__imagem__dev__currently {
     width: 25.1rem;
     height: 37px;
-    border: solid 1px  #C778DD;
+    border: solid 1px #C778DD;
     margin: auto;
     font-size: 1rem;
     display: flex;
     align-items: center;
     font-family: "Fira Code", monospace;
     color: #ABB2BF;
-    
+
 }
 
-.container__imagem__dev__currently__quadrado{
+.container__imagem__dev__currently__quadrado {
     width: 1rem;
     height: 16px;
     margin: 0 10px 0 8px;
-    }
+}
 
-.Currently{
+.Currently {
     color: white;
+}
+
+/* ////////////////////////////////////////////////// fim do container /////////////////////////////////////////////////////////////*/
+
+/* inicio container2 */
+
+.container2 {
+    width: 45.6rem;
+    height: 95px;
+    border: solid 1px #ABB2BF;
+    margin: 9rem auto;
+}
+
+.m1 {
+    width: 2.5rem;
+    height: 28.7px;
+    background-color: #282C33;
+    position: relative;
+    bottom: 18.3px;
+    left: 11px;
+
+
+}
+
+.m1 img {
+    margin: 8px 4px;
+}
+
+.container2 p {
+    color: white;
+    font-family: "Fira Code", monospace;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.m2 {
+    width: 2.5rem;
+    height: 28.7px;
+    position: relative;
+    left: 42rem;
+    top: 19px;
+    background-color: #282C33;
+    z-index: 2;
+
+}
+
+.doct {
+    width: 10.1rem;
+    height: 63px;
+    border: solid 1px #ABB2BF;
+    position: relative;
+    float: right;
+    right: 5px;
+    top: 5px;
+    z-index: 1;
+
+}
+
+.doct p {
+    padding: 1rem;
+
+}
+
+.m2 img {
+    margin: 5px;
+}
+
+
+
+
+
+
+/* ///////////////////////////////////////////////////fim container2////////////////////////////////////////////////////////////////// */
+
+/* inicio container3 */
+
+.container3 {
+    width: 64.1rem;
+    height: 518px;
+    margin: auto;
+    
+}
+
+.container3__project{
+    width: 99.9%;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container3__project__1{
+    font-size: 32px;
+    display: flex;
+    font-family: "Fira Code", monospace;
+    color: white;
+    gap: 1px;
+}
+
+.line{
+    width: 31.1rem;
+    height: 0.1px;
+    border: solid  #C778DD 1px;
+    margin: 16px 20.5px;
+}
+
+.view_all{
+    font-size: 1rem;
+    font-family: "Fira Code", monospace;
+    color: white;
+
+}
+.box{
+    display: flex;
+    gap: 16px;
+    margin-top: 48px;
+    
+    /*///////////////////////////////////////////////////////////// incio box1 ///////////////////////////////////////////////////// */
+}
+
+.box1{
+    width: 20.6rem;
+    height: 391px;
+    border: 1px solid plum;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hard1{
+    width: 19.6rem;
+    display: flex;
+    font-family: "Fira Code", monospace;
+    color:  #ABB2BF;
+    border-bottom: solid 1px #ABB2BF;
+    gap: 8px; 
+    padding: 8px;
+    
+}
+
+.box__chertnodes{
+    width: 18.6rem;
+    height: 31px;
+    color: white;
+    font-size: 1.5rem;
+    margin: 16px;
+    font-family: "Fira Code", monospace;
+
+}
+
+.minecraft{
+    margin: 0 16px;
+    color: #ABB2BF;
+    font-family: "Fira Code", monospace;
+    font-size: 1rem;
+
+}
+
+.inputs{
+    width: 15.2rem;
+    height: 37px;
+    margin: 16px 16px;
+    display: flex;
+    gap: 16px;
+    
+}
+
+.inputs input{
+    width: 6.8rem;
+    height: 37px;
+    background-color: #282C33;
+    
+}
+
+.live{
+    border: solid 1px #C778DD;
+    color:white ;
+}
+
+.cached{
+    border: solid 1px #ABB2BF;
+    color: #ABB2BF;
+}
+
+/* ////////////////////////////////////////////////////////////fim box1 /////////////////////////////////////////////////////////////// */
+
+.box2{
+    width: 20.6rem;
+    height: 428px;
+    border: 1px solid plum;
+}
+
+.box3{
+    width: 20.6rem;
+    height: 422px;
+    border: 1px solid plum;
 }
