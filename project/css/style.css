@@ -394,4 +394,21 @@ header a {
 
 /* ///////////////////////////////////////////////////////////// fim box3 ////////////////////////////////////////////////////// */
 
+/* inicio container skills */
+
+.containers__skills{
+    width: 64rem;
+    height: 365px;
+    border: solid 1px plum;
+    margin: 106px auto 112px; 
+}
+
+
+.about_me{
+    width: 64rem;
+    height: 508px;
+    border: solid 1px plum;
+    margin: auto;
+}
+
 
