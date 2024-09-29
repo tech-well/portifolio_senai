@@ -256,7 +256,7 @@ header a {
 .box1{
     width: 20.6rem;
     height: 391px;
-    border: 1px solid plum;
+    border: 1px solid #ABB2BF;
     display: flex;
     flex-direction: column;
     
@@ -319,14 +319,79 @@ header a {
 
 /* ////////////////////////////////////////////////////////////fim box1 /////////////////////////////////////////////////////////////// */
 
+/* inicio box2 */
 .box2{
     width: 20.6rem;
     height: 428px;
-    border: 1px solid plum;
+    border: 1px solid #ABB2BF;
+    font-size: 1.5rem;
+  
 }
+
+.box2__protect{
+    width: 20.1rem;
+    height: 4.6rem;
+    border-bottom: solid 1px #ABB2BF;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    color: #ABB2BF;
+    gap: 8px;
+    font-family: "Fira Code", monospace;
+    padding-left: 8px;
+}
+
+.protect{
+    font-family: "Fira Code", monospace;
+    font-size: 1.5rem;
+    color: white;
+    padding: 16px 0 0 16px;
+}
+
+.Discord{
+    font-family: "Fira Code", monospace;
+    font-size: 1rem;
+    color: #ABB2BF;
+    padding: 16px;
+}
+
+.input__protect{
+    width: 6.6rem;
+    height: 37px;
+    border: #ABB2BF solid 1px;
+    background-color: #282C33;
+    color: white;
+    margin: 0 0  16px 16px;
+    font-family: "Fira Code", monospace;
+}
+
+/*///////////////////////////////////////////////////////////// fim box 2/////////////////////////////////////////////////////// */
+
+/* inicio box3 a class do input box2 foi reutilizada para o input box3 */
+
 
 .box3{
     width: 20.6rem;
     height: 422px;
-    border: 1px solid plum;
+    border: 1px solid #ABB2BF;
 }
+
+.kahoot{
+    width: 18.6rem;
+    height: 62px;
+    margin: 16px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: "Fira Code", monospace;
+}
+
+.box3>p{
+    font-size: 1rem;
+    font-family: "Fira Code", monospace;
+    color: #ABB2BF;
+    padding: 0 0 16px 16px;
+} 
+
+/* ///////////////////////////////////////////////////////////// fim box3 ////////////////////////////////////////////////////// */
+
+
