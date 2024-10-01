@@ -403,6 +403,44 @@ header a {
     margin: 106px auto 112px; 
 }
 
+.containers__skills__title{
+    width: 24.4rem;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    font-family: "Fira Code", monospace;
+    color: white;
+    font-size: 2rem;
+}
+
+.containers__skills__linha{
+    width: 14.9rem;
+    
+    margin-left: 1rem;
+    border: solid 1px plum;
+    
+}
+
+.group36{
+    width: 21.8rem;
+    height: 282px;
+    border: #C778DD solid 1px;
+     position: absolute;
+
+}
+
+.group36__img1{
+    position: relative;
+    padding: 2rem;
+}
+
+.group36__img2{
+    position: relative;
+    margin: 0 ;
+}
+
+/* ////////////////////////////////////////////////////// fim container skills//////////////////////////////////////////////////// */
+
 
 .about_me{
     width: 64rem;
