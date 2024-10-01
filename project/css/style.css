@@ -399,7 +399,7 @@ header a {
 .containers__skills{
     width: 64rem;
     height: 365px;
-    border: solid 1px plum;
+    
     margin: 106px auto 112px; 
 }
 
@@ -417,27 +417,61 @@ header a {
     width: 14.9rem;
     
     margin-left: 1rem;
-    border: solid 1px plum;
+   
     
 }
 
 .group36{
     width: 21.8rem;
     height: 282px;
-    border: #C778DD solid 1px;
-     position: absolute;
+    
+    
 
+}
+
+.container__group36__1{
+   display: flex;
+   justify-content: space-between;
 }
 
 .group36__img1{
-    position: relative;
-    padding: 2rem;
+    margin-top: 38px;
+    width: 63px;
+    height: 63px;
+    
 }
 
 .group36__img2{
-    position: relative;
-    margin: 0 ;
+    margin-right: 72px;
+    width: 86px;
+    height: 86px;
 }
+
+.container__group36__2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.group36__img3{
+    margin: 50px 0 0 15px;
+    width: 113px;
+    height: 113px;
+    
+}
+
+.group36__img4{
+    margin-top: 22px;
+    width: 63px;
+    height: 63px;
+}
+
+.group36__img5{
+    width: 52px;
+    height: 52px;
+    margin-top: 92px;
+}
+
+
 
 /* ////////////////////////////////////////////////////// fim container skills//////////////////////////////////////////////////// */
 
